@@ -3991,3 +3991,32 @@ body.sticky-menu .wrap.full-wrap {
 .hero {
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* מגדיל את טקסט הבסיס של האתר */
+    }
+    
+    p {
+        font-size: 1.9rem; /* מגדיל פסקאות טקסט, כמו בתיאור המשפחה שמופיע בנייד */
+    }
+
+    h3 a {
+        font-size: 24px; /* מגדיל את הכותרות של המקומות (כמו ROME, AUSTRIA) */
+    }
+}

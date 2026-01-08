@@ -44,4 +44,28 @@ header { padding: 20px 0; }
 .five_sixth{ width:82.67%; }
 .one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{ position:relative; margin-right:4%; float:left; }
 .last{ margin-right:0 !important; clear:right; }
-.clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+.clearboth {clear:both;display:block;font-size:0;height:0;line-height:0;width:100
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* מגדיל את טקסט הבסיס של האתר */
+    }
+    
+    p {
+        font-size: 1.9rem; /* מגדיל פסקאות טקסט, כמו בתיאור המשפחה שמופיע בנייד */
+    }
+
+    h3 a {
+        font-size: 24px; /* מגדיל את הכותרות של המקומות (כמו ROME, AUSTRIA) */
+    }
+}

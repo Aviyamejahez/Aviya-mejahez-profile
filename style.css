@@ -3449,19 +3449,7 @@ header.header nav,
 /* ==========================================================================
    14. Media Queries
    ========================================================================== */
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 18px; /* מגדיל את טקסט הבסיס של האתר */
-    }
-    
-    p {
-        font-size: 1.1rem; /* מגדיל פסקאות טקסט, כמו בתיאור המשפחה שמופיע בנייד */
-    }
 
-    h3 a {
-        font-size: 22px; /* מגדיל את הכותרות של המקומות (כמו ROME, AUSTRIA) */
-    }
-}
 @media screen and (min-width: 33.75em) {
   /* 540px */
   .related-posts .posts {
@@ -3707,3 +3695,22 @@ header.header nav,
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px; /* מגדיל את טקסט הבסיס של האתר */
+    }
+    
+    p {
+        font-size: 1.9rem; /* מגדיל פסקאות טקסט, כמו בתיאור המשפחה שמופיע בנייד */
+    }
+
+    h3 a {
+        font-size: 24px; /* מגדיל את הכותרות של המקומות (כמו ROME, AUSTRIA) */
+    }
+}
