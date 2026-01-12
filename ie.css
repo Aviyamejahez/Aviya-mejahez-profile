@@ -4022,3 +4022,11 @@ body.sticky-menu .wrap.full-wrap {
         font-size: 30px !important; /* מבטיח שזה יתפוס גם בתוך אזור התוכן של ה-About */
     }
 }
+
+
+
+
+
+.wrap.full-wrap {
+    padding-top: 5em !important; 
+}
