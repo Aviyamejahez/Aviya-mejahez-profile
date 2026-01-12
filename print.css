@@ -58,14 +58,15 @@ header { padding: 20px 0; }
 
 @media screen and (max-width: 480px) {
     body {
-        font-size: 12px; /* מגדיל את טקסט הבסיס של האתר */
-    }
-    
-    p {
-        font-size: 1.9rem; /* מגדיל פסקאות טקסט, כמו בתיאור המשפחה שמופיע בנייד */
+        font-size: 16px !important; /* מגדיל את טקסט הבסיס */
     }
 
-    h3 a {
-        font-size: 24px; /* מגדיל את הכותרות של המקומות (כמו ROME, AUSTRIA) */
+    p {
+        font-size: 18px !important; /* מגדיל ספציפית פסקאות, כמו ב-About */
+        line-height: 1.6 !important;
+    }
+
+    .main-wrap p {
+        font-size: 30px !important; /* מבטיח שזה יתפוס גם בתוך אזור התוכן של ה-About */
     }
 }
