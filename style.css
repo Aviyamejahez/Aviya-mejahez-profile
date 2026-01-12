@@ -3397,16 +3397,16 @@ input[type="text"], input[type="url"], input[type="email"], input[type="tel"], i
 }
 
 .hero h1 {
-  font-size: 100px;
-  font-size: 10rem;
+  font-size: 80px;
+  font-size: 8rem;
 }
 .hero .hero-line-one {
   font-size: 79px;
   font-size: 7.9rem;
 }
 .hero .hero-line-two {
-  font-size: 41px;
-  font-size: 4.1rem;
+  font-size: 31px;
+  font-size: 3.1rem;
 }
 
 .sticky-inner {
